@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import CompletedTasksPage from './pages/Task/CompletedTasksPage';
+import CompletedTasksPage from '../pages/Task/CompletedTasksPage';
 
 function App() {
   return (
