@@ -1,12 +1,14 @@
 import React from 'react';
-
 import Dashboard from '../pages/Dashboard/Dashboard';
+import './App.css';
+import CompletedTasksPage from '../pages/Task/CompletedTasksPage';
 
 function App() {
   return (
-
-  
-   <Dashboard />
+    <div>
+      <CompletedTasksPage />
+      <Dashboard />
+    </div>
   );
 }
 
